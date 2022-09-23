@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/algos.iml" filepath="$PROJECT_DIR$/.idea/algos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ds-and-algos.iml" filepath="$PROJECT_DIR$/.idea/ds-and-algos.iml" />
     </modules>
   </component>
 </project>
