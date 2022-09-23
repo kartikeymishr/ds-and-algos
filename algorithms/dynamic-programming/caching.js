@@ -56,6 +56,16 @@ function memoizedFibonacci() {
     }
 }
 
+// Bottom Up Approach. Solving the simplest problems then moving to the more complex ones.
+function memoizedFibonacci2(n) {
+    let answer = [0, 1]
+    for (let i = 0; i <= n; i++) {
+        answer.push(answer[i - 2] + answer[i - 1])
+    }
+
+    return answer.pop()
+}
+
 // console.log(fibonacci(20));
 
 const fasterFibonacci = memoizedFibonacci()
